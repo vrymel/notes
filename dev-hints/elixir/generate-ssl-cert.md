@@ -50,5 +50,3 @@ Sources:
 [https://medium.com/@a4word/phoenix-app-secured-with-let-s-encrypt-469ac0995775](https://medium.com/@a4word/phoenix-app-secured-with-let-s-encrypt-469ac0995775)
 
 [https://medium.com/@zek/secure-your-phoenix-app-with-free-ssl-48ac749c17d7](https://medium.com/@zek/secure-your-phoenix-app-with-free-ssl-48ac749c17d7)
-
-[Renewing expired cert](./Renewing-expired-cert-56d79bd8-d396-4811-bfba-6dbb74a506a2.md)

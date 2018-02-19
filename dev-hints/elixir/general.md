@@ -30,11 +30,3 @@ Changeset will not be loaded when using this method, do a preload if the associa
 
     iex> query = Ecto.Query.where(Post, [p], p.views > 10)
     iex> Ecto.Adapters.SQL.to_sql(:all, Repo, query)
-
-[Syntax](./Syntax-3bfde798-4956-4d93-b4bd-97858ed3aec6.md)
-
-[Install Erlang in Ubuntu 16](./Install-Erlang-in-Ubuntu-16-e7ede586-5861-4343-8db4-7c2450f57f3c.md)
-
-[Release Phoenix framework](./Release-Phoenix-framework-2d4ce9b2-72fb-4795-b77d-d8e38834b4ae.md)
-
-[Generate SSL cert](./Generate-SSL-cert-7280f6fd-e621-46b5-b503-47be458d9e7a.md)

@@ -9,11 +9,11 @@ Case
 
     case variable do
       {:ok, result} ->
-    		# statement
+        # statement
       {:error, _} -> 
         # statement
-      _ -> 
-    		# statement
+      _ ->
+        # statement
     end
 
 If...else

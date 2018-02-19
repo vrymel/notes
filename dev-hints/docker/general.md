@@ -13,5 +13,3 @@ System Prune
 Compose rebuild
 
     docker-compose up --force-recreate
-
-[Installing PHP extensions](./Installing-PHP-extensions-e8af221a-04dd-492d-8cb4-e3ff5a5177da.md)
