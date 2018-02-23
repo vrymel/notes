@@ -13,3 +13,7 @@ System Prune
 Compose rebuild
 
     docker-compose up --force-recreate
+
+Copy file from container to host
+
+    docker cp <container_id>:/path/to/file /host/destination/file
