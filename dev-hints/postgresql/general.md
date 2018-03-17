@@ -2,7 +2,7 @@
 
 Backup
 
-    pg_dump -U <user> <database_name> ./filename.sql 
+    pg_dump -U <user> <database_name> > ./filename.sql 
 
 Restore
 
