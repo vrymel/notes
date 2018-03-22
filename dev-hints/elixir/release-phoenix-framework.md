@@ -4,11 +4,14 @@
 
         source .env
 
-2. Prepare production configuration file config/prod.exs
+2. Prepare production configuration file `config/prod.exs`
 
         config :waypoints_direct, WaypointsDirect.Endpoint,
-          http: [port: 4000],
-          url: [host: "test.waypoints.direct", port: 4000],
+          # http: [port: 4000],
+          https: [port: "${PORT}",
+                  keyfile: System.get_env("WAYPOINTS_DIRECT_KEY_FILE"),
+                  certfile: System.get_env("WAYPOINTS_DIRECT_CERT_FILE")]
+          url: [host: "${HOST}", port: "${PORT}"],
           cache_static_manifest: "priv/static/manifest.json",
           server: true,
           root: ".",
