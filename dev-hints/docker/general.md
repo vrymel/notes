@@ -2,7 +2,7 @@
 
 Build
 
-    docker build -t <tag> <build context>
+    docker build [--no-cache] -t <tag> <build context>
 
     docker build -t tag-name .
 
