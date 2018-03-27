@@ -1,5 +1,17 @@
 # Docker
 
+Build
+
+    docker build -t <tag> <build context>
+
+    docker build -t tag-name .
+
+Run
+
+    docker run --name <container-name> -it <image name>
+
+    docker run --name docker-elixir-phoenix -it elixir-phoenix
+
 Show public port opened from the container
 
     docker port <container_name> <container_port>
