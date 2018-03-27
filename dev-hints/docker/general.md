@@ -1,31 +1,41 @@
 # Docker
 
-Build
+#### Build
 
     docker build [--no-cache] -t <tag> <build context>
 
     docker build -t tag-name .
 
-Run
+#### Run
 
     docker run --name <container-name> -it <image name>
 
     docker run --name docker-elixir-phoenix -it elixir-phoenix
 
-Show public port opened from the container
+#### Show public port opened from the container
 
     docker port <container_name> <container_port>
     
     docker port cow_bai 3306
 
-System Prune
+#### System Prune
 
     docker system prune --volumes -f
 
-Compose rebuild
+#### Copy file from container to host
+
+    docker cp <container_id>:/path/to/file /host/destination/file
+
+___
+
+### Compose
+
+#### Rebuild
 
     docker-compose up --force-recreate
 
-Copy file from container to host
+#### Run 
 
-    docker cp <container_id>:/path/to/file /host/destination/file
+    docker-compose run <service-name> <command>
+
+    docker-compose run web mix deps.get
