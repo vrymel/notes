@@ -26,6 +26,12 @@
 
     docker cp <container_id>:/path/to/file /host/destination/file
 
+#### Mount volume
+
+    docker run -it --mount type=bind,source=<absolute path>,target=<directory to mount in the container> <image name>
+
+    docker run -it --mount type=bind,source="/Users/vomandam/projects/waypoints_direct",target="/opt/app" vrymel/docker-elixir-phoenix
+
 ___
 
 ### Compose
