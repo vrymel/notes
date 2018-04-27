@@ -22,3 +22,13 @@
 #### Show stashed changes diff
 
     git stash show -p
+
+#### List config
+
+    git config --list
+
+#### Change global user config
+
+    git config --global user.email <email address>
+
+    git config --global user.name <name>
