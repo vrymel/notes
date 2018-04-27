@@ -4,7 +4,7 @@ Download desired version here
 
 [https://www.erlang-solutions.com/resources/download.html](https://www.erlang-solutions.com/resources/download.html)
 
-    wget [https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_19.0-1~ubuntu~xenial_amd64.deb](https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_19.0-1~ubuntu~xenial_amd64.deb)
+    wget https://packages.erlang-solutions.com/erlang/esl-erlang/FLAVOUR_1_general/esl-erlang_19.0-1~ubuntu~xenial_amd64.deb
 
 It might be necessary to uninstall the built-in erlang in Ubuntu
 
