@@ -38,7 +38,9 @@ ___
 
 #### Rebuild
 
-    docker-compose up --force-recreate
+    docker-compose build 
+    # or
+    docker-compose up --build
 
 #### Run 
 
