@@ -47,3 +47,7 @@ ___
     docker-compose run <service-name> <command>
 
     docker-compose run web mix deps.get
+
+#### Compose with custom compose file
+
+    docker-compose -f [alternate compose file] up -d
