@@ -17,3 +17,5 @@ From the bastion host, you can then SSH to the private instance without providin
     ssh <user@private-intance-ip>
 
 Note: If the private instance's private key is different from the bastion host, you need to add both private keys in `ssh-add`.
+
+[Source](https://aws.amazon.com/blogs/security/securely-connect-to-linux-instances-running-in-a-private-amazon-vpc/)
