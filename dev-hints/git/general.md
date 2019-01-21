@@ -48,3 +48,7 @@ Note: This will not change the timestamp of the commit history.
     git config --global user.email <email address>
 
     git config --global user.name <name>
+
+#### Cleanup unnecessary files and optimize the local repository
+
+    git gc
