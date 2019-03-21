@@ -1,5 +1,21 @@
 # General
 
+## Branch
+
+#### Show branches that was merged to another branch
+
+    git branch --merged <branch>
+
+    # Shows branches that is merged to master
+    git branch --merged master
+
+#### Show branches that was not merged to another branch
+
+    git branch --no-merged <branch>
+
+    # Shows branches that is not merged to master
+    git branch --no-merged master
+
 ## Log
 
 #### List commits where a file was modified
