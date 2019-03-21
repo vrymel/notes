@@ -16,6 +16,16 @@
     # Shows branches that is not merged to master
     git branch --no-merged master
 
+## Checkout
+
+#### Retrieve a file from a commit
+
+    git checkout <commit> -- <file>
+
+#### Retrieve a deleted from a commit
+
+    git checkout <commit where file was deleted>^ -- file
+
 ## Log
 
 #### List commits where a file was modified
