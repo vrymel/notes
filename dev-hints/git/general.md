@@ -53,6 +53,14 @@
 
     git stash show -p
 
+## Clean
+
+#### Remove all untracked files and directories
+
+    # -d to include directories
+    # -f to do cleaning
+    git clean -d -f
+
 ## Config
 
 #### List config
