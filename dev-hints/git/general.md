@@ -53,6 +53,10 @@
 
     git stash show -p
 
+#### Include untracked files
+
+    git stash --include-untracked
+
 ## Clean
 
 #### Remove all untracked files and directories
@@ -60,6 +64,12 @@
     # -d to include directories
     # -f to do cleaning
     git clean -d -f
+
+## Reset
+
+#### Undo a merge using ORIG_HEAD
+
+    git reset --merge ORIG_HEAD
 
 ## Config
 
