@@ -1,14 +1,22 @@
 # MySQL CLI commands
 
-Backup
+#### Backup
 
     mysqldump -u <user> -p <database_name> > dumpfilename.sql
 
-Restore
+#### Restore
 
     mysql -u <user> -p <database_name> < dumpfilename.sql 
 
-Run MySQL skipping grant tables
+#### Restore from gzip file
+
+    gunzip < <file_dump.sql.gz> | mysql -u <user> -f -p <database_name>  
+    # -f force even if there are errors on import
+		
+		# Example
+    gunzip < service_management_2019-11-20.sql.gz | mysql -u root -f -p service_management
+
+#### Run MySQL skipping grant tables
 
     sudo /usr/local/mysql/bin/mysqld \
     	--user=_mysql \
